@@ -24,7 +24,7 @@ import os
 OWNER = int(os.environ.get("OWNER", 7013332761))      #replace your user id 
 try: 
     ADMINS=[] 
-    for x in (os.environ.get("ADMINS", "7013332761").split()):     ##replace your user id  (for multiple userid use white space) e.g. "123456 987456" <<- two userid ka example haa yee 
+    for x in (os.environ.get("ADMINS", "7013332761 6226272085").split()):     ##replace your user id  (for multiple userid use white space) e.g. "123456 987456" <<- two userid ka example haa yee 
         # jitni userid dalni ha usti daloo ...
         ADMINS.append(int(x)) 
 except ValueError: 
